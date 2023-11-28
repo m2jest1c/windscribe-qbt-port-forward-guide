@@ -16,8 +16,8 @@
 ### Configure Windscribe & qBitTorrent
 
 1. Open Windscribe, and connect.
-2. Turn on the **always on firewall**. This prevents your internet traffic from leaking in the event Windscribe disconnects. Leave this setting on for the remainder of your torrenting session.
-![](Images/AlwaysOn.png) \
+2. Turn on the **always on firewall**. This prevents your internet traffic from leaking in the event Windscribe disconnects. Leave this setting on for the remainder of your torrenting session. \
+![](Images/AlwaysOn.png)
 3. Open qBitTorrent.
 4. Press Alt + O. This should open the Preferences menu for qBitTorrent. You can also select Tools > Preferences on the top.
 5. Select *Connection* on the left.
