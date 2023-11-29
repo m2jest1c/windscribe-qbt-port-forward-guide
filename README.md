@@ -6,7 +6,7 @@
 * WireGuard, IKEv2 (best), or UDP (alright), or TCP, Stealth, and WStunnel (not recommended unless you cannot use the others). Port isn't very important. 443 is best. \
 ![](Images/Protocol.png)
 
-### Activate port forwarding
+### Activate Port Forwarding
 
 1. [Log in to Windscribe.](https://windscribe.com/login)
 2. Go to the [ephemeral port forwarding page.](https://windscribe.com/myaccount#porteph)
