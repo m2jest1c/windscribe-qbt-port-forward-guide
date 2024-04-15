@@ -1,4 +1,4 @@
-# Ephemeral Port Forwarding with Windscribe for qBitTorrent - A Guide
+# Port Forwarding with Windscribe for qBitTorrent - A Guide
 
 ### Requirements
 
@@ -6,12 +6,33 @@
 * WireGuard, IKEv2 (best), or UDP (alright), or TCP, Stealth, and WStunnel (not recommended unless you cannot use the others). Port isn't very important. 443 is best. \
 ![](Images/Protocol.png)
 
-### Activate Port Forwarding
+### Activate Ephemeral Port Forwarding
 
 1. [Log in to Windscribe.](https://windscribe.com/login)
 2. Go to the [ephemeral port forwarding page.](https://windscribe.com/myaccount#porteph)
-3. Request **matching** or **specific** port. **Note down the port.** If you selected specific, note down the port that **you typed in**, NOT the external port it assigns to you.
-4. Disconnect (if currently connected) and reconnect. *For WireGuard, you may have to switch servers or disconnect for a brief period of time.*
+3. Request **matching** or **specific** port. **Note down the port.**
+     * If you selected specific, note down the port that **you typed in**, NOT the external port it assigns to you.
+4. Disconnect (if currently connected) and reconnect. 
+     * For WireGuard users, you may have to switch servers or disconnect for a brief period of time.
+
+##### Keep in Mind
+
+* You must renew the port every 7 days. Matching ports will require that you change the port number in qBitTorrent every time you renew. Specific port will allow you to keep that setting the same, though you'll have to reconnect qBitTorrent when you renew the port in either case.
+
+### Activate Permanent Port Forwarding ([Static IPs Only](https://windscribe.com/staticips))
+
+1. [Log in to Windscribe.](https://windscribe.com/login)
+2. Go to the [static IP port forwarding page.](https://windscribe.com/myaccount#portforwards)
+3. Select the location you've purchased, and configure your options. 
+     1. Name the service. Choose whatever you want, since it doesn't affect anything.
+     2. Select **TCP.**
+     3. Select the device you want to port forward with. 
+          * You must **connect at least once** for a device to appear.
+     4. Choose a port number.
+          * You can use a port number of your choosing for both internal and external, though it's recommended you keep them the same. **Note down the internal port.**
+          * It's also a better idea to choose a higher port number (greater than 10000). 
+4. Disconnect (if currently connected) and reconnect. 
+     * For WireGuard users, you may have to switch servers or disconnect for a brief period of time.
 
 ### Configure Windscribe & qBitTorrent
 
