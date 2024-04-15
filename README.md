@@ -2,6 +2,8 @@
 
 ### Requirements
 
+* [Windscribe Pro](https://windscribe.com/upgrade)
+     * If you'd like permanent port forwarding, you must also purchase a [static IP.](https://windscribe.com/staticips) 
 * qBitTorrent
 * WireGuard, IKEv2 (best), or UDP (alright), or TCP, Stealth, and WStunnel (not recommended unless you cannot use the others). Port isn't very important. 443 is best. \
 ![](Images/Protocol.png)
