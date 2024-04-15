@@ -10,7 +10,7 @@
 
 1. [Log in to Windscribe.](https://windscribe.com/login)
 2. Go to the [ephemeral port forwarding page.](https://windscribe.com/myaccount#porteph)
-3. Request **matching** or **specific** port. **Note down the port.**
+3. Request **matching** or **specific** port. **Note down the port.** If you selected specific, note down the port that **you typed in**, NOT the external port it assigns to you.
 4. Disconnect (if currently connected) and reconnect. *For WireGuard, you may have to switch servers or disconnect for a brief period of time.*
 
 ### Configure Windscribe & qBitTorrent
