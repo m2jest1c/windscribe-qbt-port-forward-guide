@@ -31,7 +31,7 @@
      3. Select the device you want to port forward with. 
           * You must **connect at least once** for a device to appear.
      4. Choose a port number.
-          * You can use a port number of your choosing for both internal and external, though it's recommended you keep them the same. **Note down the internal port.**
+          * You can use a port number of your choosing for both internal and external, though it's [recommended you keep them the same](#matching-vs-specific-ports). **Note down the internal port.**
           * It's also a better idea to choose a higher port number (greater than 10000). 
 4. Disconnect (if currently connected) and reconnect. 
      * For WireGuard users, you may have to switch servers or disconnect for a brief period of time.
@@ -61,3 +61,9 @@
 Make sure you **do not turn off Windscribe's Always On firewall before you close your torrenting client.** Make sure to **close your torrenting client from the tray** before you shut down the VPN and its firewall. **You will need to turn off the Always-On firewall if you want to use the internet without a VPN after you are done.** You can set it to automatic or manual in order to disable the always on firewall.
 
 Do not open your torrenting client without the VPN connected and with the Always On firewall active. This is a risk and **may leak your true IP.**
+
+### Troubleshooting
+
+#### Matching vs. Specific Ports
+- I have observed that in certain cases, some people may have issues succeeding with port forwarding if they use specific port (as in, select their own port instead of using the matching option). If port forwarding does not work, try using matching port instead.
+     - Matching port requires that you change the port in the qBitTorrent every week. Specific port (since the internal port is always the same) negates this, and if that functions properly for you, you're more than welcome to use it!
