@@ -47,14 +47,14 @@
 6. Select **TCP** as your peer connection method, and type in the port you noted down. **Disable UPnP** as well. \
 ![](Images/Port.png)
 7. Select *Advanced* on the left.
-8. **Bind** qBitTorrent to your **VPN network interface**. \
-![](Images/Interface.png)
+8. **Bind** qBitTorrent to your **VPN network interface**. 
     * Windows:
          * On WireGuard, it should be titled **Windscribe WireGuard**.
          * On IKEv2, it should be titled **Windscribe IKEv2**.
          * On OpenVPN (UDP/TCP/Stealth/WStunnel) it should be titled **Local Area Connection** (potentially with a number). You will have to check this in your Windows adapter settings. 
     * Linux, MacOS:
          * The network interface may show up as **utun420** or **tun0**.
+![](Images/Interface.png)
 
 9. Check if your port is forwarding. You can do this at [YouGetSignal](https://www.yougetsignal.com/tools/open-ports/) or [Can You See Me.](https://canyouseeme.org/) Make sure you type in the correct port. If it says it is open, then you are good to go.
 
