@@ -1,5 +1,17 @@
 # Port Forwarding with Windscribe for qBitTorrent - A Guide
 
+## ⚠️ A word of caution
+
+Windscribe has tightened up on their bandwidth usage policies. This is due to users who have significantly abused their previously relaxed bandwidth usage enforcement and singlehandedly saturated entire locations for hours on end. This causes issues for dozens if not hundreds of other users on those servers.
+
+While **this has not been an issue for me** or most users, a handful (as of a few days ago, around **40 users out of Windscribe's 20 million active users**) have been banned. 
+
+Windscribe cannot differentiate between torrenting and other use cases, and torrenting itself is not prohibited. *It is discouraged in certain countries which are marked as 'File Sharing Frowned Upon'.*
+
+However, torrenting can be a high bandwidth use case, especially when you seed. As long as you don't use far too much bandwidth a month (above 20TB is my opinion), and don't saturate a location by high speed continuous download/upload, you should be fine. If this does not meet your needs, I recommend purchasing a seedbox.
+
+My experience after these policy changes remains the same, and I still recommend Windscribe. I am not a Windscribe employee, and these opinions are my own.
+
 ### Requirements
 
 * [Windscribe Pro](https://windscribe.com/upgrade)
