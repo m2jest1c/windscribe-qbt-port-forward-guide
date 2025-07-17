@@ -1,17 +1,5 @@
 # Port Forwarding with Windscribe for qBitTorrent - A Guide
 
-## ⚠️ A word of caution
-
-Windscribe has tightened up on their bandwidth usage policies. This is due to users who have significantly abused their previously relaxed bandwidth usage enforcement and singlehandedly saturated entire locations for hours on end. This causes issues for dozens if not hundreds of other users on those servers.
-
-While **this has not been an issue for me** or most users, a handful (as of a few days ago, around **40 users out of Windscribe's 20 million active users**) have been banned. 
-
-Windscribe cannot differentiate between torrenting and other use cases, and torrenting itself is not prohibited. *It is discouraged in certain countries which are marked as 'File Sharing Frowned Upon'.*
-
-However, torrenting can be a high bandwidth use case, especially when you seed. As long as you don't use far too much bandwidth a month (above 20TB is my opinion), and don't saturate a location by high speed continuous download/upload, you should be fine. If this does not meet your needs, I recommend purchasing a seedbox.
-
-My experience after these policy changes remains the same, and I still recommend Windscribe. I am not a Windscribe employee, and these opinions are my own.
-
 ### Requirements
 
 * [Windscribe Pro](https://windscribe.com/upgrade)
@@ -79,3 +67,19 @@ Do not open your torrenting client without the VPN connected and with the Always
 #### Matching vs. Specific Ports
 - I have observed that in certain cases, some people may have issues succeeding with port forwarding if they use specific port (as in, select their own port instead of using the matching option). If port forwarding does not work, try using matching port instead.
      - Matching port requires that you change the port in the qBitTorrent every week. Specific port (since the internal port is always the same) negates this, and if that functions properly for you, you're more than welcome to use it!
+
+### ⚠️ A small word of caution
+
+A few months ago (July 2025 as of writing), Windscribe had *somewhat* tightened up on their bandwidth usage policies. This is due to users who significantly abused their relaxed bandwidth usage enforcement and singlehandedly saturated entire locations for hours on end. This caused issues for dozens if not hundreds of other users on those servers.
+
+This resulted in an influx of complaints on the subreddit, which may come up when you search for information regarding torrenting on Windscribe. Since then, the subreddit seems to have been semi-inundated with misleading complaints regarding the service.
+
+While **this has not been an issue for me or most users**, a handful (around **40 out of Windscribe's 20 million active users**) have been banned. 
+
+I've chosen to move this warning to the bottom of the guide from it's previous position at the top as it seems that this debacle has died down.
+
+Windscribe cannot differentiate between torrenting and other use cases, and torrenting itself is not prohibited. *This does not apply to certain locations which are marked as 'File Sharing Frowned Upon'. Torrenting is discouraged in those locations, and some blocking is used.*
+
+However, torrenting can be a high bandwidth use case, especially when you seed. As long as you don't use far too much bandwidth a month (above 20TB in my opinion), and don't saturate a location via high bandwidth continuous download/upload, you should be fine. If this does not meet your needs, I recommend purchasing a seedbox.
+
+My experience after these policy changes remains the same, and I still recommend Windscribe. I am not a Windscribe employee, and these opinions are my own.
