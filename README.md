@@ -4,8 +4,9 @@
 
 * [Windscribe Pro](https://windscribe.com/upgrade)
      * If you'd like permanent port forwarding, you must also purchase a [static IP.](https://windscribe.com/staticips) 
+     * You may notice that screenshots of the Windscribe client in this guide may look different from newer versions of Windscribe. Don't worry, the steps remain the same.
 * qBitTorrent
-* WireGuard, IKEv2 (best), or UDP (alright), or TCP, Stealth, and WStunnel (not recommended unless you cannot use the others). Port isn't very important. 443 is best. \
+* WireGuard, IKEv2, UDP (best), or TCP, Stealth, and WStunnel (not recommended unless you cannot use the others). Port isn't super important, and 443 is generally best, since this is the same port used for HTTPS. Feel free to experiment if you have the time! Some users get higher speeds on other ports. \
 ![](Images/Protocol.png)
 
 ### Activate Ephemeral Port Forwarding
@@ -70,16 +71,14 @@ Do not open your torrenting client without the VPN connected and with the Always
 
 ### ⚠️ A small word of caution
 
-A few months ago (July 2025 as of writing), Windscribe had *somewhat* tightened up on their bandwidth usage policies. This is due to users who significantly abused their relaxed bandwidth usage enforcement and singlehandedly saturated entire locations for hours on end. This caused issues for dozens if not hundreds of other users on those servers.
+During Summer 2025, Windscribe *somewhat* tightened up on their bandwidth usage policies. This was due to users who significantly abused their previously relaxed bandwidth usage enforcement and often singlehandedly saturated entire locations for hours on end. This caused issues for dozens if not hundreds of other users on those servers.
 
-This resulted in an influx of complaints on the subreddit, which may come up when you search for information regarding torrenting on Windscribe. Since then, the subreddit seems to have been semi-inundated with misleading complaints regarding the service.
+This resulted in an influx of complaints on the r/Windscribe subreddit, which may come up when you search for information regarding torrenting with Windscribe. Since then, the subreddit seems to have been semi-inundated with misleading complaints regarding the service.
 
-While **this has not been an issue for me or most users**, a handful (around **40 out of Windscribe's 20 million active users**) have been banned. 
+While **this has not been an issue for most users**, a handful (around **40 out of Windscribe's 20 million active users**) have been banned. 
 
-I've chosen to move this warning to the bottom of the guide from it's previous position at the top as it seems that this debacle has died down.
+Windscribe cannot differentiate between torrenting and other use cases. Torrenting itself is generally not prohibited. This does not apply to certain countries which are marked as 'File Sharing Frowned Upon'. Torrenting is discouraged in those locations, and methods of blocking it are implemented.
 
-Windscribe cannot differentiate between torrenting and other use cases, and torrenting itself is not prohibited. *This does not apply to certain locations which are marked as 'File Sharing Frowned Upon'. Torrenting is discouraged in those locations, and some blocking is used.*
+Torrenting is often a high bandwidth use case, especially when you seed. As long as you don't use far too much bandwidth a month (above 20TB in my opinion), and don't saturate a location via high bandwidth continuous download/upload, you should be fine. If this does not meet your needs, I recommend purchasing a seedbox.
 
-However, torrenting can be a high bandwidth use case, especially when you seed. As long as you don't use far too much bandwidth a month (above 20TB in my opinion), and don't saturate a location via high bandwidth continuous download/upload, you should be fine. If this does not meet your needs, I recommend purchasing a seedbox.
-
-My experience after these policy changes remains the same, and I still recommend Windscribe. I am not a Windscribe employee, and these opinions are my own.
+I still recommend Windscribe. I am not a Windscribe employee, and these opinions are my own.
